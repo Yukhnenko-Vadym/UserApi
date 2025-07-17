@@ -14,13 +14,10 @@ If you downloaded the project as a `.zip` file, unzip it and navigate to the pro
 # Navigate to project directory
 cd UserApi
 
-# Run in HTTP mode without Swagger
+# Run in HTTP mode 
 dotnet run --urls=http://localhost:5258
 # OR 
 dotnet run
-
-# To launch with Swagger
-dotnet run --urls=http://localhost:5258/swagger
 ```
 > **Note:** HTTPS is not used. All testing and API calls are performed over HTTP.
 
@@ -75,7 +72,7 @@ All test materials are located in the `Tests/` directory.
 How to run:
 
 ```bash
-cd Tests/Rest-assured-Tests/UserApi.Tests
+cd Tests/Rest-assured-Tests/UserApi.Test
 mvn test
 ```
 
